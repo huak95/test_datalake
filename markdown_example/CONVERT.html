@@ -1,0 +1,152 @@
+<h1 id="abstract">Abstract</h1>
+<p>A real online retail transaction data set of two years.</p>
+<h1 id="dataset-information">Dataset Information</h1>
+<p>This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.</p>
+<h1 id="images">Images</h1>
+<p>Reference from <a href="https://www.brandbuffet.in.th/2020/11/cj-express-group-strategic-move/">https://www.brandbuffet.in.th/2020/11/cj-express-group-strategic-move/</a></p>
+<h2 id="cj-more">CJ More</h2>
+<p>Retail store selling consumer products. </p>
+<p>Including</p>
+<ul>
+<li>bao cafe</li>
+<li>nine beauty</li>
+</ul>
+<p><img src="asset/CJ-MORE_Silom.jpg" alt="CJ More Silom"></p>
+<h3 id="supermarket">Supermarket</h3>
+<p>Sale beer and snack.</p>
+<p><img src="asset/CJ-Supermarket_1.jpg" alt="Supermarket Zone"></p>
+<h3 id="bao-cafe">Bao Cafe</h3>
+<p>Fresh coffee shop.</p>
+<p><img src="asset/Bao-Cafe_1.jpg" alt="Bao Cafe Zone"></p>
+<h3 id="nine-beauty">Nine Beauty</h3>
+<p>Cosmetics zone Health and beauty products Multi-brand</p>
+<p><img src="asset/Nine-Beauty_2.jpg" alt="Nine Beauty Zone"></p>
+<h1 id="data-dictionary">Data Dictionary</h1>
+<h2 id="schema-detail">Schema Detail</h2>
+<p>The table describes a dataset of sales transactions. Each row represents an invoice with details like invoice number, product code, description, quantity, date, unit price, customer ID, and their country.</p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>InvoiceNo</td>
+<td>Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter ‘c’, it indicates a cancellation.</td>
+</tr>
+<tr>
+<td>StockCode</td>
+<td>Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product.</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Product (item) name. Nominal.</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>The quantities of each product (item) per transaction. Numeric.</td>
+</tr>
+<tr>
+<td>InvoiceDate</td>
+<td>Invoice date and time. Numeric. The day and time when a transaction was generated.</td>
+</tr>
+<tr>
+<td>UnitPrice</td>
+<td>Unit price. Numeric. Product price per unit in sterling (£).</td>
+</tr>
+<tr>
+<td>CustomerID</td>
+<td>Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.</td>
+</tr>
+<tr>
+<td>Country</td>
+<td>Country name. Nominal. The name of the country where a customer resides.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-types">Data Types</h2>
+<ul>
+<li><strong>Invoice:</strong> Int </li>
+<li><strong>StockCode:</strong> String</li>
+<li><strong>Description:</strong> String</li>
+<li><strong>Quantity:</strong> Int </li>
+<li><strong>InvoiceDate:</strong> String </li>
+<li><strong>Price:</strong> Float </li>
+<li><strong>Customer ID:</strong> Int</li>
+<li><strong>Country:</strong> String<h2 id="sample-data">Sample data</h2>
+This data describes a collection of sales invoices. Each invoice record details a single transaction.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Invoice</th>
+<th>StockCode</th>
+<th>Description</th>
+<th>Quantity</th>
+<th>InvoiceDate</th>
+<th>Price</th>
+<th>Customer ID</th>
+<th>Country</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>536365</td>
+<td>85123A</td>
+<td>WHITE HANGING HEART T-LIGHT HOLDER</td>
+<td>6</td>
+<td>1/12/2010 08:26</td>
+<td>2.55</td>
+<td>17850</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td>536365</td>
+<td>71053</td>
+<td>WHITE METAL LANTERN</td>
+<td>6</td>
+<td>1/12/2010 08:26</td>
+<td>3.39</td>
+<td>17850</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td>536365</td>
+<td>84406B</td>
+<td>CREAM CUPID HEARTS COAT HANGER</td>
+<td>8</td>
+<td>1/12/2010 08:26</td>
+<td>2.75</td>
+<td>17850</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td>536365</td>
+<td>84029G</td>
+<td>KNITTED UNION FLAG HOT WATER BOTTLE</td>
+<td>6</td>
+<td>1/12/2010 08:26</td>
+<td>3.39</td>
+<td>17850</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td>536365</td>
+<td>84029E</td>
+<td>RED WOOLLY HOTTIE WHITE HEART.</td>
+<td>6</td>
+<td>1/12/2010 08:26</td>
+<td>3.39</td>
+<td>17850</td>
+<td>United Kingdom </td>
+</tr>
+</tbody>
+</table>
+<h1 id="source">Source</h1>
+<p>Dr. Daqing Chen, Course Director: MSc Data Science. chend &#39;@&#39; lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.</p>
+<p>Please find more information refer the below link,
+<a href="https://archive.ics.uci.edu/ml/datasets/Online+Retail+II">https://archive.ics.uci.edu/ml/datasets/Online+Retail+II</a></p>
+<p>Kaggle Link,
+<a href="https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset?resource=download&amp;select=online_retail_II.xlsx">https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset?resource=download&amp;select=online_retail_II.xlsx</a></p>

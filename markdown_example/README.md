@@ -47,6 +47,7 @@ The table describes a dataset of sales transactions. Each row represents an invo
 | UnitPrice   | Unit price. Numeric. Product price per unit in sterling (£).                                                                                                    |
 | CustomerID  | Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.                                                                         |
 | Country     | Country name. Nominal. The name of the country where a customer resides.                                                                                        |
+
 ## Data Types
 - **Invoice:** Int 
 - **StockCode:** String

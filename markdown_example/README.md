@@ -66,7 +66,7 @@ This data describes a collection of sales invoices. Each invoice record details 
 | 536365  | 71053     | WHITE METAL LANTERN                 | 6        | 1/12/2010 08:26 | 3.39  | 17850       | United Kingdom |
 | 536365  | 84406B    | CREAM CUPID HEARTS COAT HANGER      | 8        | 1/12/2010 08:26 | 2.75  | 17850       | United Kingdom |
 | 536365  | 84029G    | KNITTED UNION FLAG HOT WATER BOTTLE | 6        | 1/12/2010 08:26 | 3.39  | 17850       | United Kingdom |
-| 536365  | 84029E    | RED WOOLLY HOTTIE WHITE HEART.      | 6        | 1/12/2010 08:26 | 3.39  | 17850       | United Kingdom 
+| 536365  | 84029E    | RED WOOLLY HOTTIE WHITE HEART.      | 6        | 1/12/2010 08:26 | 3.39  | 17850       | United Kingdom |
 
 # Source
 Dr. Daqing Chen, Course Director: MSc Data Science. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.

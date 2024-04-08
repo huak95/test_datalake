@@ -21,6 +21,7 @@ Including
 Sale beer and snack.
 
 ![Supermarket Zone](asset/CJ-Supermarket_1.jpg)
+![Supermarket Zone 2](asset/CJ-Supermarket_2.jpg)
 
 ### Bao Cafe
 Fresh coffee shop.
